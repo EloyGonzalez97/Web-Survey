@@ -1,0 +1,5 @@
+validate: validate the schema, makes no changes to the database.
+update: update the schema. experimental
+create: creates the schema, destroying previous data.
+create-drop: does what create does, but then drops the schema at the end of the session.
+none: does nothing.
